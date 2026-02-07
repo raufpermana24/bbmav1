@@ -29,7 +29,7 @@ TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '8361349338:AAHOlx4fKz_bp1MHnV
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '-1003618941801')
 
 # Setting Bot
-TIMEFRAME = '15m'       # Timeframe Eksekusi
+TIMEFRAME = '4h'       # Timeframe Eksekusi
 LIMIT = 200             # Data history
 TOP_COIN_COUNT = 300    # TARGET: 300 KOIN
 MAX_THREADS = 10        # 10 Worker agar scan 300 koin lebih cepat
